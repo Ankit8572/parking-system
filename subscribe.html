@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>subscribe_us</title>
+    <link rel="stylesheet" href="subscribe.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="contact-container">
+      <div class="left-col"></div>
+      <div class="right-col">
+        <div class="theme-switch-wapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" />
+            <div class="slider"></div>
+            <div class="description">Dark Mode</div>
+          </label>
+        </div>
+        <h1>CONTACT US</h1>
+        <form id="contact-form" method="post" action="/subscribe.html">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full Name"
+            required
+          />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your email id"
+            required
+          />
+          <lable for="massage">Massage</lable>
+          <textarea
+            row="7"
+            placeholder="your massage"
+            id="massage"
+            name="massage"
+          ></textarea>
+          <button type="submit" id="submit" name="submit">Send</button>
+        </form>
+        <div class="error"></div>
+        <div id="success-msg"></div>
+      </div>
+    </div>
+  </body>
+</html>

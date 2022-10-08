@@ -1,0 +1,160 @@
+::root{background-color: aliceblue;
+    margin: 0%;
+    padding: 0%;
+    /* background-color:#12ADC1; */
+    
+}
+body{
+    overflow-x: hidden;
+    
+
+}
+
+.nav{
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    border-radius: 15px;
+    /* background-color: black; */
+}
+
+.logo{
+    width: 100px;
+    border-radius: 15px;
+}
+
+.nav_list{
+    height: 70px;
+    margin: 3px;
+    padding: 10px 2px ;
+    /* border: solid; */
+    /* border-radius: 10px; */
+    /* background-color:black; */
+    overflow:none;
+    display: block;
+
+
+}
+.nav_list li{
+    
+    display: inline-flex;
+    margin: 20px;
+    padding: 5px;
+    
+}
+.nav_list li a i{
+   width: 20px;
+   height: 0;
+   background-color: none;
+   margin: 4px;
+}
+
+
+.nav_list li a{
+    position: relative;
+    text-decoration: none;
+    border: solid;
+    border-radius: 8px;
+    /* color: #000080; */
+    padding: 5px;
+    /* background: burlywood; */
+    /* background: linear-gradient(#ff9933,#ffffff,#138808); */
+    box-shadow:-10px -4px 10px ;
+}
+.nav_list li a::after{
+    content: " ";
+    position: absolute;
+    transition: width 0.8s;
+    width: 0;
+    height: 2px;
+    background: #FF0000;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.nav_list li a:hover::after{
+
+    width: 100%;
+    background-color: black;
+}
+
+
+main{
+    padding:2em;
+    /* background: #c1129b; */
+    
+}
+.main_heading{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    height: auto;
+    background:linear-gradient(#d2d2e4, #6fecf7) ;
+    border-radius: 50px;
+}
+
+.pms{
+    height: auto;
+    width: 100vh;   
+    color: black;
+    font-size: 100px;
+    margin: 4px;
+    /* background: #e51e2a;*/
+    
+}
+
+
+ #front_page{
+    display: inline;
+    margin-top: 20px;
+    /* box-shadow: 5px 15px 105px ; */
+    margin-right: 20px;
+    width: 45em;
+    height: auto;
+    border-radius: 20px;
+    position: relative;
+    
+}
+
+
+/*-- Subscribe-- */
+.contact_info {
+    cursor: pointer;
+}
+
+/* --footer-- */
+
+    .main_foot{
+        /* margin: auto; */
+        border: solid black 3px;
+        height: 10rem;
+        width: 95%;
+        display: relative;
+        /* justify-content: space-between; */
+        bottom: 0%;
+        border-radius: 10px;
+        /* background: linear-gradient(#fff rgb(255, 255, 255); */
+            
+    }
+
+
+/* --subscribe_button-- */
+.sub_btn a{
+    margin: 10px;
+    padding: 5px;
+    border: solid orange 5px;
+    border-radius: 12px;
+    position: absolute;
+    margin-left: 80%;
+    
+
+}
+
+
+/* -- About_US-- */
+
+
+
